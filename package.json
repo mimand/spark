@@ -1,0 +1,25 @@
+{
+  "name": "@probot/example-begin",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "Probot & Begin.com example",
+  "scripts": {
+    "start": "npx sandbox",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^5.0.0",
+    "nock": "^13.0.7",
+    "probot": "^12.0.0",
+    "smee-client": "^1.2.2",
+    "uvu": "^0.5.1"
+  },
+  "repository": "github:probot/example-begin",
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "license": "ISC",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
